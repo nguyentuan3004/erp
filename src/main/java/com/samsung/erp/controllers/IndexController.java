@@ -29,6 +29,7 @@ public class IndexController {
     @ResponseBody
     public String getIndex() {
         env.getProperty("spring.mvc.view.prefix");
+        System.out.println("Hello hahahaa");
         return "Hello Index";
     }
 
