@@ -30,6 +30,7 @@ public class IndexController {
     public String getIndex() {
         env.getProperty("spring.mvc.view.prefix");
         System.out.println("Hello hahahaa");
+        System.out.println("Tuantuna");
         return "Hello Index";
     }
 
